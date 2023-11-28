@@ -1,56 +1,38 @@
 * {box-sizing: border-box}
 
-/* Container needed to position the overlay. Adjust the width as needed */
-.container {
-  position: relative;
-  width: 50%;
-  max-width: 300px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
-/* Make the image to responsive */
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-/* The overlay effect - lays on top of the container and over the image */
-.overlay {
-  position: absolute;
-  bottom: 0;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5); /* Black see-through */
-  color: #f1f1f1;
-  width: 100%;
-  transition: .5s ease;
-  opacity:0;
-  color: white;
-  font-size: 20px;
-  padding: 20px;
-  text-align: center;
-}
-
-/* When you mouse over the container, fade in the overlay title */
-.container:hover .overlay {
-  opacity: 1;
-}
-
-
 
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 0;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
+    padding: 0px
 }
 
-.container:hover {
-    
-}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.row {
+    display: flex;
+    padding: 50px;
+  }
+  
+  .column {
+    flex: 22.22%;
+    padding: 5px;
+  }
+  
+  .wicked:hover {
+    transform: scale(0.9);
+  }
+  .lion:hover {
+    transform: scale(0.9);
+  }
+  .dracula:hover {
+    transform: scale(0.9);
+  }
+  .matilda:hover {
+    transform: scale(0.9);
+  }
 
 .lottery-container {
     padding: 0px;
@@ -72,8 +54,11 @@ button:hover {
     background-color: #a60000
 }
 
+.navbar
+
 @media (max-width 600px) {
     .lottery-container {
         margin: 20px;
     }
 }
+
