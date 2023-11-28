@@ -6,7 +6,6 @@
     <title>Arion's Lottery System</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/style.css">
-    <script src="./assets/script.js"></script>
 </head>
 <body>
 
@@ -23,7 +22,7 @@
         </ul>
         <form class="d-flex" role="search">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
+          <button class="b btn-outline-success" type="submit">Search</button>
         </form>
       </div>
     </div>
@@ -44,21 +43,17 @@
     </div>
   </div>
 
-    <div class="lottery-container">
-        <h2> TodayTix Lottery </h2>
-        <p id="lottery-info"></p>
-        <button onclick="enterLottery()">Enter Lottery</button>
-        <div class="popup" id="popup">
-            <img src="./assets/images/matilda.jpg">
-            <h2> Thank You</h2>
-            <p>How many tickets?</p>
-            <button type="button" onclick="closePopup()">OK</button>
-        </div>
-        
+  <button id="openModal">Enter Lottery</button>
 
-
+  <div class="modal" id="modal">
+    <div class="modal-inner">
+      <h2> TodayTix Lottery</h2>
+      <p> Congratulations! You have been entered into our lottery draw.</p>
+      <button id="closeModal">close</button>
     </div>
-    
+  </div>
+    </div>
+    <script src="./assets/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
