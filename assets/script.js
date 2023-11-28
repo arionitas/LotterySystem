@@ -58,3 +58,7 @@ function enterLottery() {
     showLottery.enter(user);
     alert("Lottery entered successfully!");
 }
+
+let popup = document.getElementById("popup")
+
+function openPopup() {}
