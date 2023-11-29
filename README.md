@@ -2,8 +2,6 @@
 
 When a user decides to enter the lottery for a particular show on TodayTix, they would navigate to the lottery section in the app. Upon selecting a specific show, the user would see details about the lottery, including the number of available tickets and the entry deadline.
 
-
-
 1. Entering the Lottery:
 
    1. The user clicks on the "Enter Lottery" button, expressing their interest along with how many tickets they would like.
@@ -101,3 +99,12 @@ function enterLottery() {
     showLottery.enter(user);
     alert("Lottery entered successfully!");
 }
+
+# Deployed Project Link
+
+https://arionitas.github.io/LotterySystem/
+
+# Usage
+
+![Screenshot (1305)](https://github.com/arionitas/LotterySystem/assets/60946518/7965b953-9ed0-40db-8f7f-ec7756812884)
+
