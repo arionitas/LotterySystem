@@ -153,6 +153,11 @@ https://arionitas.github.io/LotterySystem/
 
 ![Screenshot (1305)](https://github.com/arionitas/LotterySystem/assets/60946518/7965b953-9ed0-40db-8f7f-ec7756812884)
 
+![Screenshot (1306)](https://github.com/arionitas/LotterySystem/assets/60946518/1fb7bc58-8dbc-40a3-b268-23e5be0b0ab2)
+
+![Screenshot (1307)](https://github.com/arionitas/LotterySystem/assets/60946518/04a0cf60-3a6d-4526-98b0-3de1a6bdf7f4)
+
+
 
 
 ### Adding Screenshots
