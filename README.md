@@ -45,7 +45,7 @@
 
 # TodayTix LotterySystem
 
-A user would download the TodayTix application on ios or android, sign in with their apple-id or email and then select the show they would like to enter the Lottery for. Upon deciding to enter the lottery for their particular show on, the user would click on the 'Enter Lottery' button which would then bring up the screen to select how many tickets they would like, along with an image of the show they are entering the lottery for to further validate that it is the correct show they are entering the lottery for. They then select dates, enter their contact information, click on the 'Enter Lottery' button and then they are successfully entered within the lottery system and sent an email confirmation to confirm their entry.
+A user would download the TodayTix application on ios or android, sign in with their apple-id or email and then select the show they would like to enter the Lottery for. Upon deciding to enter the lottery for their particular show, the user would then click on the 'Enter Lottery' button which would bring up the screen to select how many tickets they would like, along with an image of the show they are entering the lottery for, to further validate that it is the correct show they are entering the lottery for. They then select dates, enter their contact information, click on the 'Enter Lottery' button of which then they are successfully entered within the lottery system and sent an email confirmation to confirm their entry.
 
 1. Entering the Lottery:
 
