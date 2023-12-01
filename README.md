@@ -119,10 +119,10 @@ class LotterySystem {
 
 
 
-    createLottery(availableTickets, entryDeadline) {
-        const lottery = new Lottery(availableTickets, entryDeadline);
-        this.lotteries.push(lottery);
-        return lottery;
+createLottery(availableTickets, entryDeadline) {
+   const lottery = new Lottery(availableTickets, entryDeadline);
+   this.lotteries.push(lottery);
+   return lottery;
     }
 
 }
