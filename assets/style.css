@@ -10,7 +10,8 @@ body {
     padding: 0px
 }
 
-/* Three image containers (use 25% for four, and 50% for two, etc) */
+/* Four image containers */
+
 .row {
     display: flex;
     padding: 50px;
@@ -133,6 +134,8 @@ button:active {
   line-height: 24px;
   margin: 10px 0;
 }
+
+/* media query for smaller screen-sizes */
 
 
 @media (max-width 600px) {
